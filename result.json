@@ -1,0 +1,79 @@
+{
+  "project": "INTISARI",
+  "model": "INTISARI-CHAT-V5",
+  "checkpoint": "final",
+  "evaluation_version": "chat-eval-v5",
+  "timestamp": "20260816T053033Z",
+  "model_info": {
+    "path": "outputs/intisari-chat-v5/intisari-chat-v5/20260815T095148Z/checkpoints/final",
+    "parameters": "53.3M",
+    "layers": 22,
+    "hidden_dim": 512,
+    "vocab_size": 4106,
+    "context_length": 512
+  },
+  "generation": {
+    "prompts": 100,
+    "avg_tokens": 12.93,
+    "median_tokens": 12.0,
+    "min_tokens": 3,
+    "max_tokens": 30,
+    "eos_rate": 0.0,
+    "max_token_rate": 0.0
+  },
+  "repetition": {
+    "repeat_2gram": 0.0975,
+    "repeat_3gram": 0.0418,
+    "distinct_2": 0.7895,
+    "distinct_3": 0.9396
+  },
+  "degeneration": {
+    "rate": 0.0
+  },
+  "topic_drift": {
+    "avg_overlap": 0.2242,
+    "drift_rate": 0.25
+  },
+  "generation_config": {
+    "max_new_tokens": 80,
+    "temperature": 0.7,
+    "seed": 42,
+    "top_k": 50,
+    "top_p": 0.95,
+    "strategy": "sampling"
+  },
+  "prompt_count": 100,
+  "dataset_info": {
+    "training_samples": 64284
+  },
+  "training_history": [
+    {
+      "epoch": 0,
+      "global_step": 3816,
+      "loss": 2.2410991452175626,
+      "perplexity": 9.403661598820507,
+      "accuracy": 0.5072077711897622
+    },
+    {
+      "epoch": 1,
+      "global_step": 7632,
+      "loss": 1.4032917618829603,
+      "perplexity": 4.068570714107966,
+      "accuracy": 0.6937564346936126
+    },
+    {
+      "epoch": 2,
+      "global_step": 11448,
+      "loss": 0.7804372254964028,
+      "perplexity": 2.182426269334575,
+      "accuracy": 0.8450541017152478
+    },
+    {
+      "epoch": 3,
+      "global_step": 15264,
+      "loss": 0.4624213195794582,
+      "perplexity": 1.5879141816451408,
+      "accuracy": 0.918680711798264
+    }
+  ]
+}
